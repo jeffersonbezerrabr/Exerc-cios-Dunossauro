@@ -1,1 +1,1 @@
-# Exerc-cios-Dunossauro
+# Exercicios-Dunossauro
