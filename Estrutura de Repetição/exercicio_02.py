@@ -19,4 +19,4 @@ while True:
     cadastros.append(cadastro)
     break
 
-print(cadastros)
+print("Cadastro realizado com sucesso! Obrigado.")
