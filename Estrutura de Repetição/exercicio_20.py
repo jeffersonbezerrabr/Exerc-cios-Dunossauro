@@ -24,11 +24,11 @@ while True:
         encerrar = input("Deseja encerrar? [S]im ou [N]ão: ").strip().lower()
         
         if encerrar.startswith("n"):
-            break  # volta para pedir outro número
+            break  
         
         elif encerrar.startswith("s"):
             print("Programa encerrado.")
-            exit()  # encerra o programa
+            exit()
         
         else:
             print("Resposta inválida. Digite S ou N.")
