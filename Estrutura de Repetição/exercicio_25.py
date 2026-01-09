@@ -12,7 +12,6 @@ while Continuar:
         if idade < 1:
             print("Precisa digitar uma idade valida.")
             continue
-        
         idades.append(idade)
 
         while True:
@@ -20,7 +19,6 @@ while Continuar:
                 if not sair:
                     print("Precisa digitar algo")
                     continue
-                
                 if sair[0] == "S":
                     Continuar = False
                     break
