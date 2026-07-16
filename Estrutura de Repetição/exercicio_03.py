@@ -8,7 +8,7 @@
 """
 
 while True:
-    nome = input("Digite seu nome: ").split()
+    nome = input("Digite seu nome: ").strip()
     if len(nome) <= 3:
         print("Precisa ter mais que 3 caracteres")
         continue
