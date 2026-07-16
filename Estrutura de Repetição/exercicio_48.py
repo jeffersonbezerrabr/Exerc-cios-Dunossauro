@@ -16,16 +16,14 @@ while True:
         if n <= 0:
             print("O valor precisa ser positivo")
             continue
-        else:
-            s = str(n)
-            separado = s.split()
-            junto = "".join(separado)
-            reverso = reversed(junto)
-            for c in reverso:
-                i = int(c)
-                print(i,end="")
-            print()
-            break
+        
+        texto_invertido = str(n)[::-1]
+        
+        for c in texto_invertido:
+            print(int(c), end="")
+        print()
+        break
                 
     except ValueError:
         print("Valor precisa ser inteiro!")
+
